@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/searchRootView"  >
+    
+    <include
+        android:id="@+id/id"
+        android:layout_alignParentTop="true"
+        layout="@layout/header" />
+
+    <ListView
+        android:id="@+id/searchCritListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id"
+        android:cacheColorHint="#00000000"
+        android:smoothScrollbar="true"
+        android:clickable="true"
+         >
+
+    </ListView>
+    
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchCritListView"
+        android:layout_centerHorizontal="true"
+        android:background="@layout/send_button_states"
+        android:layout_marginTop="10dp"
+        android:text="@string/search_btn"
+        style="@style/button" />
+    
+    <TextView
+        android:id="@+id/recentlyUsedTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_btn"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+         />
+    
+    <ListView
+        android:id="@+id/recentlyUsedListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recentlyUsedTitle"
+        android:cacheColorHint="#00000000"
+        android:smoothScrollbar="true" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/searchResultsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_btn"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+         />
+    
+    <ListView
+        android:id="@+id/searchResultsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchResultsTitle"
+        android:cacheColorHint="#00000000"
+        android:smoothScrollbar="true" >
+    </ListView>
+
+    
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     >
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+         >
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        >
+        
+        <TextView
+            android:id="@+id/registrationsNumber"
+            android:layout_width="18dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:background="@layout/rounded_calendar_item_hours"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textSize="11sp"
+            android:padding="1dp" />
+        
+    </RelativeLayout>
+</RelativeLayout>

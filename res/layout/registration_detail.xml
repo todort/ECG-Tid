@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rootView" >
+
+    <include
+        android:id="@+id/id"
+        android:layout_alignParentTop="true"
+        layout="@layout/header" />
+
+    <ListView
+        android:id="@+id/registration_detail_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_below="@+id/id"
+        android:cacheColorHint="#00000000"
+        android:smoothScrollbar="true"
+         >
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/delete_btn"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@layout/delete_button_states"
+            android:layout_marginLeft="10dp"
+            android:text="@string/delete_btn"
+            style="@style/button"
+             />
+        
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@layout/send_button_states"
+            android:text="@string/send_btn"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="15dp"
+            style="@style/button"  />
+
+    </LinearLayout>
+
+</RelativeLayout>

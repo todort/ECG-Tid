@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Dansk</item>
+    </string-array>
+    
+    <string-array name="element_capacity">
+        <item>1 element</item>
+        <item>3 elementer</item>
+        <item>5 elementer</item>
+        <item>7 elementer</item>
+        <item>10 elementer</item>
+        <item>15 elementer</item>
+        <item>20 elementer</item>
+    </string-array>
+    
+    <string-array name="search_capacity">
+        <item>5 resultater</item>
+        <item>10 resultater</item>
+        <item>15 resultater</item>
+        <item>20 resultater</item>
+        <item>25 resultater</item>
+        <item>30 resultater</item>
+        <item>35 resultater</item>
+    </string-array>
+    
+    <string-array name="att_abs_type">
+        <item>0380 (0380)</item>
+        <item>9000 (9000)</item>
+        <item>0616 (0616)</item>
+        <item>0612 (0612)</item>
+        <item>0611 (0611)</item>
+        <item>0601 (0601)</item>
+        <item>0510 (0510)</item>
+        <item>OKA2 (OKA2)</item>
+        <item>Deltagelse timer (0800)</item>
+        <item>Udfordrede personer forlader (0130)</item>
+        <item>Uddannelsesorlov (0190)</item>
+        <item>Kurophold (0220)</item>
+        <item>Sygdom w/o certifikat (0210)</item>
+        <item>Sygdom med certifikat (0200)</item>
+        <item>Lad &#189; dag (0110)</item>
+        <item>Lad w. kvote d. (dage) (0100)</item>
+        <item>Lad w. kvote d. (timer) (0101)</item>
+        <item>Flytning (0330)</item>
+        <item>RWT dag BAT (OKA1)</item>
+        <item>Sygt barn (ulønnet) (0550)</item>
+        
+    </string-array>
+    
+    <string-array name="moths">
+        
+        <item>JANUAR</item>
+        <item>FEBRUAR</item>
+        <item>MARTS</item>
+        <item>APRIL</item>
+        <item>MAJ</item>
+        <item>JUNI</item>
+        <item>JULI</item>
+        <item>AUGUST</item>
+        <item>SEPTEMBER</item>
+        <item>OKTOBER</item>
+        <item>NOVEMBER</item>
+        <item>DECEMBER</item>
+       
+    </string-array>
+    
+</resources>

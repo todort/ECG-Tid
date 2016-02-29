@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_height="wrap_content" 
+   android:gravity="left|center"
+   android:layout_width="wrap_content" 
+   android:paddingBottom="5dp"
+   android:paddingTop="5dp" 
+   android:paddingLeft="5dp"
+   android:background="@layout/list_item_states"
+   >
+
+    <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+   	   android:id="@+id/linear"
+       android:layout_height="wrap_content"
+
+       >
+      
+        <TextView 
+              android:id="@+id/registration_manager_title"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:gravity="center"
+		      android:layout_marginLeft="10dp"
+		      android:textSize="20sp"
+		      android:textColor="#ace0ed"/>
+        
+  		<TextView
+  		    android:id="@+id/registration_manager_subtitle" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+	        android:layout_marginLeft="12dp" 
+	        android:textSize="14sp"
+		    android:textColor="#bfdc63"
+		    android:background="@android:color/transparent"
+		    android:focusable="false" />
+		        
+		        
+    <TextView 
+              android:id="@+id/registration_manager_title2"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:gravity="center"
+		      android:layout_marginLeft="10dp"
+		      android:textSize="20sp"
+		      android:textColor="#ace0ed"/>
+        
+  		<TextView
+  		    android:id="@+id/registration_manager_subtitle2" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+	        android:layout_marginLeft="12dp" 
+	        android:textSize="14sp"
+		    android:textColor="#bfdc63"
+		    android:background="@android:color/transparent"
+		    android:focusable="false" />
+  		
+  		
+  		
+		        </LinearLayout>
+    
+    <ImageView
+       android:id="@+id/arrow"
+       android:layout_alignParentRight="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginRight="12dip"
+       android:layout_centerVertical="true"
+       android:src="@drawable/arrow"
+        />
+
+    
+  		
+ 
+
+       
+
+</RelativeLayout>
+
+<!--  <TextView 
+              android:id="@+id/registration_manager_title3"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:gravity="center"
+		      android:layout_marginLeft="10dp"
+		      android:textSize="20sp"
+		      android:textColor="#ace0ed"/>
+        
+  		<TextView
+  		    android:id="@+id/registration_manager_subtitle3" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+	        android:layout_marginLeft="12dp" 
+	        android:textSize="14sp"
+		    android:textColor="#bfdc63"
+		    android:background="@android:color/transparent"
+		    android:focusable="false" /> -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="opaque_red">#ffff0000</color>
+    <color name="transparent_red">#80ff0000</color>
+    <color name="opaque_blue">#0000ff</color>
+    <color name="opaque_green">#0f0</color>
+    <color name="CompanyColor">#59b227</color>
+	<color name="red">#ff0000</color>
+	<color name="green">#00ff00</color>
+	<color name="greenStart">#d5f11a</color>
+	<color name="greenEnd">#a3ba09</color>
+	<color name="redStart">#ff6666</color>
+	<color name="redEnd">#e03523</color>
+	<color name="white">#ffffffff</color>
+	<color name="black">#ff000000</color>
+	<color name="text_color">#000</color>
+	<color name="bluemy">#7c9adc</color>
+    <color name="whitemy">#f8faff</color>
+	<color name="state_selected">#0679a6</color>
+	<color name="darkgrey">#616161</color>
+	<color name="lightgrey">#747474</color>
+	<color name="darkgreen">#5D8647</color>
+	
+	<color name="HeaderGradientStartColor">#00446e</color>
+	<color name="HeaderGradientEndColor">#107ba7</color>
+	
+	
+    <color name="yellow2">#CCCC00</color>
+    <color name="orange4">#FF6A00</color>
+    <color name="orange5">#FF9D00</color>
+    <color name="grey">#D4D0C8</color>
+    <color name="blue2">#0000FF</color>
+    <color name="blue25">#2080FF</color>
+
+    <color name="blueItem">#ace0ed</color>
+    <color name="greenItem">#bfdc63</color>
+    
+    <color name="evry_header">#348ec2</color>
+    <color name="evry_primary">#063954</color>
+    <color name="evry_secondary">#00add3</color>
+    <color name="evry_green">#c6df00</color>
+ 
+</resources>

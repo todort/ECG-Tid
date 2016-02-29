@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+   	   android:id="@+id/linear"
+       android:layout_height="wrap_content"
+	   android:paddingTop="10dp"
+	   android:paddingBottom="10dp"
+	   android:background="@layout/list_item_states"
+       >
+      
+        <TextView 
+              android:id="@+id/search_item_title"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:gravity="center"
+		      android:layout_marginLeft="10dp"
+		      android:textSize="20sp"
+		      android:textColor="#ace0ed"/>
+
+        <EditText
+            android:id="@+id/search_item_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="15dp"
+            android:background="@android:color/transparent"
+            android:visibility="gone"
+            android:imeOptions="actionDone"
+            android:inputType="text"    
+            android:singleLine="true"     
+            android:textColor="#bfdc63"
+            android:textSize="16sp"
+            android:gravity="right"
+            
+             >      
+            </EditText>
+
+        <TextView
+            android:id="@+id/search_item_subtitle_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="15dp"
+            android:background="@android:color/transparent"
+            android:singleLine="true"     
+            
+            android:textSize="16sp"
+            android:gravity="right"
+            android:hint="@string/search_data"
+            android:textColorHint="#6db1d0"
+             >      
+            </TextView>
+</LinearLayout>

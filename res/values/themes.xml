@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EvryTheme" parent="android:Theme.NoTitleBar">
+      <item name="header_logo">@style/header_logo</item>
+      <item name="header">@style/header</item>
+      <item name="logo">@style/logo</item>
+      <item name="dateShow">@style/dateShow</item>
+      <item name="companyLogo">@style/companyLogo</item>
+      <item name="calendar_item_states">@layout/calendar_item_states</item>
+      <item name="android:windowBackground">@drawable/evry_back</item>
+      <item name="android:colorBackground">@color/evry_primary</item>
+      <item name="android:textColorPrimary">@color/white</item>
+      <item name="android:textColorSecondary">@color/white</item> 
+      <item name="background">@style/background</item>
+        
+    </style>
+    
+    <style name="EvryThemeCalendar" parent="android:Theme.NoTitleBar">
+      
+      <item name="header">@style/header</item>
+      <item name="dateShow">@style/dateShow</item>
+      <item name="logo">@style/logo</item>
+      <item name="calendar_item_states">@layout/calendar_item_states</item>
+      <item name="android:windowBackground">@android:color/white</item>
+      <item name="android:colorBackground">@color/evry_primary</item>
+      <item name="android:textColorPrimary">@color/black</item>
+      <item name="android:textColorSecondary">@color/black</item> 
+      <item name="background">@style/background</item>
+        
+    </style>
+    
+    
+
+    <style name="MyTheme" parent="android:Theme.NoTitleBar">
+        
+      <item name="calendar_item_states">@layout/calendar_item_states</item>
+      <item name="header">@style/Myheader</item>
+      <item name="dateShow">@style/MydateShow</item>
+      <item name="companyLogo">@style/MycompanyLogo</item>
+      <item name="android:windowBackground">@color/bluemy</item>
+      <item name="android:colorBackground">@color/bluemy</item>
+      <item name="android:textColorPrimary">@color/whitemy</item>
+      <item name="android:textColorSecondary">@color/whitemy</item>    
+    </style>
+    
+</resources>

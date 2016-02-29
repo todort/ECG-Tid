@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+		android:id="@+id/weekTotal" 
+		android:icon="@drawable/clock"
+		android:title="@string/weekTotal" 
+		 />
+
+    <item 
+		android:id="@+id/prefs" 
+		android:icon="@drawable/prefs"
+		android:title="@string/prefs" 
+		
+		 />
+</menu>

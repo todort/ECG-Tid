@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory 
+	    android:title="@string/language">
+        <ListPreference
+            android:summary="@string/def_language"
+			android:title="@string/language" 
+			android:key="Languages" 
+			android:name="Languages"
+			android:entries="@array/languages" 
+			android:entryValues="@array/languages" 
+			android:defaultValue="English" />
+	    
+		
+	</PreferenceCategory>
+    
+	<PreferenceCategory 
+	    android:title="@string/server">
+	    
+		<EditTextPreference 
+		    android:summary="@string/server_address"
+			android:title="@string/url" 
+			android:key="URL" 
+			android:name="URL"
+			android:defaultValue="http://sapds4.teamr3.com:8000/sap/bc/srt/rfc/sap/zcats_mobility_ws/800/zcats_mobility_ws/zcats_mobility_ws"			 />
+	</PreferenceCategory>
+	
+	<PreferenceCategory 
+	    android:title="@string/credentials">
+		
+		<EditTextPreference 
+		    android:summary="@string/your_username"
+			android:title="@string/username_hint" 
+			android:key="Username" 
+			android:name="Username" />
+		
+		<EditTextPreference 
+		    android:summary="@string/your_password"
+			android:title="@string/password_hint" 
+			android:key="Password" 
+			android:name="Password"
+			android:password="true" />
+		
+	</PreferenceCategory>
+	
+	<PreferenceCategory 
+	    android:title="@string/recently_used_elements">
+	    
+		<ListPreference 
+		    android:summary="@string/number_entries"
+			android:title="@string/capacity" 
+			android:key="CapacityRecentlyUsed" 
+			android:name="Capacity"
+			android:entries="@array/element_capacity" 
+			android:entryValues="@array/element_capacity"
+			android:defaultValue="10 elements" />
+	</PreferenceCategory>
+	
+	<PreferenceCategory 
+	    android:title="@string/search_results">
+	    
+		<ListPreference 
+		    android:summary="@string/search_results_subtitle"
+			android:title="@string/capacity" 
+			android:key="CapacitySearchResults"  
+			android:name="Capacity"
+			android:entries="@array/search_capacity" 
+			android:entryValues="@array/search_capacity"
+			android:defaultValue="10 results" />
+	</PreferenceCategory>
+	
+</PreferenceScreen>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Dansk</item>
+    </string-array>
+    
+    <string-array name="element_capacity">
+        <item>1 element</item>
+        <item>3 elements</item>
+        <item>5 elements</item>
+        <item>7 elements</item>
+        <item>10 elements</item>
+        <item>15 elements</item>
+        <item>20 elements</item>
+    </string-array>
+    
+    <string-array name="search_capacity">
+        <item>5 results</item>
+        <item>10 results</item>
+        <item>15 results</item>
+        <item>20 results</item>
+        <item>25 results</item>
+        <item>30 results</item>
+        <item>35 results</item>
+    </string-array>
+    
+    <string-array name="att_abs_type">
+        <item>0380 (0380)</item>
+        <item>9000 (9000)</item>
+        <item>0616 (0616)</item>
+        <item>0612 (0612)</item>
+        <item>0611 (0611)</item>
+        <item>0601 (0601)</item>
+        <item>0510 (0510)</item>
+        <item>OKA2 (OKA2)</item>
+        <item>Attendance hours (0800)</item>
+        <item>Challenged persons leave (0130)</item>
+        <item>Educational leave (0190)</item>
+        <item>Health cure (0220)</item>
+        <item>Illness w/o certificate (0210)</item>
+        <item>Illness with certificate (0200)</item>
+        <item>Leave &#189; day (0110)</item>
+        <item>Leave w. quota d. (days) (0100)</item>
+        <item>Leave w. quota d. (hours) (0101)</item>
+        <item>Relocation (0330)</item>
+        <item>RWT day BAT (OKA1)</item>
+        <item>Sick child (unpaid) (0550)</item>
+        
+    </string-array>
+    
+    <string-array name="activity_type">
+        <item>Administration (ADMN)</item>
+        <item>Customer Project (CPRO)</item>
+        <item>Customer Project (appr) (CPRA)</item>
+        <item>Fee Earner (EARN)</item>
+        <item>Internal Project (IPRO)</item>
+        <item>Public Holidays (PUBI)</item>
+        <item>Surveyor (SURV)</item>
+        <item>Vacation (VACA)</item>
+        <item>Vacation Legal (VACT)</item>
+       
+    </string-array>
+    
+    <string-array name="moths">
+        
+        <item>JANUARY</item>
+        <item>FEBRUARY</item>
+        <item>MARCH</item>
+        <item>APRIL</item>
+        <item>MAY</item>
+        <item>JUNE</item>
+        <item>JULY</item>
+        <item>AUGUST</item>
+        <item>SEPTEMBER</item>
+        <item>OCTOBER</item>
+        <item>NOVEMBER</item>
+        <item>DECEMBER</item>
+       
+    </string-array>
+    
+</resources>

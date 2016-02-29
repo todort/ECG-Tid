@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/id"
+        android:layout_alignParentTop="true"
+        layout="@layout/header" />
+    
+    <ListView
+        android:id="@+id/registrationManagerList"
+        android:layout_below="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:cacheColorHint="#00000000"
+        android:smoothScrollbar="true" >
+    </ListView>
+    
+    <Button
+            android:id="@+id/new_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@layout/send_button_states"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/new_btn"
+            android:layout_marginBottom="3dp"
+            style="@style/button"  />
+
+</RelativeLayout>

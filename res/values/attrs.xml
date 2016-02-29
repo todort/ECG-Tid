@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="header" />
+    <attr name="dateShow" />
+    <attr name="companyLogo" />
+    <attr name="calendar_item_states" />
+    <attr name="logo" />
+    <attr name="header_logo" />
+    <attr name="background" />
+</resources>
